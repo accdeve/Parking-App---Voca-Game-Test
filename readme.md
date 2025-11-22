@@ -1,6 +1,6 @@
 # Parking Lot Management System
 
-Sebuah sistem manajemen tempat parkir yang dibangun menggunakan Go (Golang) dengan penerapan Domain-Driven Design (DDD) dan Clean Architecture. Aplikasi ini membaca perintah dari sebuah file input, mengeksekusi perintah tersebut, dan menampilkan hasilnya ke STDOUT.
+Sebuah sistem manajemen tempat parkir yang dibangun menggunakan Go versi 1.24.0 dengan penerapan Domain-Driven Design (DDD) dan Clean Architecture. Aplikasi ini membaca perintah dari sebuah file input, mengeksekusi perintah tersebut, dan menampilkan hasilnya ke STDOUT.
 
 ---
 

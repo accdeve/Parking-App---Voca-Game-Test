@@ -36,14 +36,14 @@ readme.md
 
 ### Fungsi Setiap Folder
 
-| Folder                         | Description                                                        |
-| ------------------------------ | ------------------------------------------------------------------ |
-| **cmd/parking**                | Application entry point. Initializes CLI, repository, and service. |
-| **internal/cli**               | Handles command parsing and executes service methods.              |
-| **internal/domain**            | Contains core business logic and domain entities.                  |
-| **internal/repository**        | Repository abstraction (interfaces).                               |
-| **internal/repository/memory** | In-memory repository implementation.                               |
-| **internal/service**           | Application service orchestrating domain + repository.             |
+| Folder                         | Deskripsi                                                            |
+| ------------------------------ | -------------------------------------------------------------------- |
+| **cmd/parking**                | Inisialisasi CLI, repository, dan service.                           |
+| **internal/cli**               | Handling input service.                                              |
+| **internal/domain**            | Entity                                                               |
+| **internal/repository**        | Interface                                                            |
+| **internal/repository/memory** | Implementasi interface                                               |
+| **internal/service**           | Service aplikasi yang menghubungkan domain dan repository.           |
 
 ---
 

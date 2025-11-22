@@ -107,21 +107,15 @@ Slot No.   Registration No.
 ### 1. Membuat Domain Model
 
 * Membuat entity **Car**, **ParkingLot**, dan **ParkingLotManager**.
-* Menentukan behavior inti: `Park`, `Leave`, `IsEmpty`, dan manajemen slot.
-* Menambahkan aturan bisnis seperti nearest-empty-slot dan perhitungan biaya parkir.
+* Membuat fungsi untuk masing" domain: `Park`, `Leave`, `IsEmpty`.
+* Menambahkan logic seperti nearest-empty-slot dan perhitungan biaya parkir.
 
-### 2. Mendesain Arsitektur Folder
-
-* Menerapkan struktur **DDD + Clean Architecture**.
-* Memisahkan domain, service, repository, dan CLI.
-* Memisahkan interface repository dan implementasi repository.
-
-### 3. Membuat Repository Abstraction
+### 2. Membuat Repository Abstraction
 
 * Membuat interface `ParkingRepository`.
 * Menentukan method `Save()` dan `Load()` untuk menyimpan state manager.
 
-### 4. Implementasi Repository (In-Memory)
+### 3. Implementasi Repository (In-Memory)
 
 * Membuat folder `internal/repository/memory`.
 * Implementasi penyimpanan sederhana menggunakan pointer ke `ParkingLotManager`.
@@ -144,6 +138,4 @@ Slot No.   Registration No.
 * Menjalankan `CLI.RunFromFile()`.
 
 ### 8. Menjalankan dan Menguji Menggunakan Test Case PDF
-
-* Tes pertama menggunakan kapasitas **6** sesuai PDF.
 
